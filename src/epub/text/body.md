@@ -1,10 +1,3 @@
-<span class="wst-gap __gap"
-style="display:inline-block; inline-size:1em"></span>"*The civility of
-no race can be perfect*  
-*whilst another race is degraded*."  
-
-—<span class="smallcaps">Emerson</span>.
-
 <span style="font-size:120%;"><span
 class="blackletter blackletter-mode-"
 style="-webkit-font-feature-settings:'cv01', 'cv02', 'cv03', 'cv04', 'cv05', 'cv06', 'cv07', 'cv08', 'cv09', 'cv10'; -ms-font-feature-settings:'cv01', 'cv02', 'cv03', 'cv04', 'cv05', 'cv06', 'cv07', 'cv08', 'cv09', 'cv10';"

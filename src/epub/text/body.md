@@ -1,20 +1,3 @@
-<span style="font-size:120%;"><span
-class="blackletter blackletter-mode-"
-style="-webkit-font-feature-settings:'cv01', 'cv02', 'cv03', 'cv04', 'cv05', 'cv06', 'cv07', 'cv08', 'cv09', 'cv10'; -ms-font-feature-settings:'cv01', 'cv02', 'cv03', 'cv04', 'cv05', 'cv06', 'cv07', 'cv08', 'cv09', 'cv10';"
-lang="en-Latf">Dedication.</span></span>
-
-------------------------------------------------------------------------
-
-To the
-
-Friends of Humanity Everywhere
-
-I offer this humble tribute
-
-written by
-
-one of a proscribed race.
-
 <span style="font-size:120%;">PREFACE.</span>
 
 <span about="#mwt114"> </span>

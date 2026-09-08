@@ -258,10 +258,45 @@ section[epub|type~="z3998:scene"] > p{
 }
 /* End drama */
 
+/* Begin letters */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+p[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
+/* End letters */
+
 [epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
 	text-align: justify;
 	text-indent: 0;
+}
+
+#chapter-17 > blockquote:last-of-type p:first-of-type,
+#chapter-21 > blockquote:nth-of-type(2) p:first-of-type{
+	font-variant: all-small-caps;
+	text-align: center;
+}
+
+#chapter-17 > blockquote:last-of-type p:last-of-type,
+#chapter-21 > blockquote:nth-of-type(2) p:last-of-type{
+	font-variant: small-caps;
+	margin-right: 40%;
+	text-align: right;
 }

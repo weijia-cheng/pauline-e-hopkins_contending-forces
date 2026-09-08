@@ -58,10 +58,6 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	}
 }
 /* End full-page epigraphs */
 
@@ -123,7 +119,6 @@ section[epub|type~="dedication"] > *{
 	display: none;
 }
 
-[epub|type~="z3998:hymn"] p + p,
 [epub|type~="z3998:song"] p + p,
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
@@ -160,7 +155,6 @@ p span.i8{
 /* End verse */
 
 /* Begin drama */
-[epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
 	margin: 1em auto;
@@ -195,33 +189,8 @@ table[epub|type~="z3998:drama"]{
 	width: 20%;
 }
 
-[epub|type~="z3998:stage-direction"]{
-	font-style: italic;
-}
-
-[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
-i [epub|type~="z3998:persona"]{
-	font-style: normal;
-}
-
-[epub|type~="z3998:stage-direction"]::before{
-	content: "(";
-	font-style: normal;
-}
-
-[epub|type~="z3998:stage-direction"]::after{
-	content: ")";
-	font-style: normal;
-}
-
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
-}
-
-section[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
 }
 
 @media(max-width: 400px){
@@ -236,23 +205,6 @@ section[epub|type~="z3998:scene"] > p{
 
 	[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
 		break-after: avoid;
-		margin-top: 1.5em;
-	}
-
-	/* `together` rows get a pseudo-stage-direction. */
-	[epub|type~="z3998:drama"] tr.together td[epub|type~="z3998:persona"]::after{
-		content: " (Together.)";
-		font-style: italic;
-		font-variant: normal;
-	}
-
-	[epub|type~="z3998:drama"] .together td:last-child{
-		border: none;
-		padding: 0;
-	}
-
-	/* Rows that are only stage direction get a top margin. */
-	[epub|type~="z3998:drama"] td:first-child:not([epub|type]) + td{
 		margin-top: 1.5em;
 	}
 }

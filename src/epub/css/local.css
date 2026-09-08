@@ -288,6 +288,11 @@ p[epub|type~="z3998:salutation"],
 	text-indent: 0;
 }
 
+#chapter-14 strong:last-of-type{
+	font-variant: normal;
+	text-transform: uppercase;
+}
+
 #chapter-17 > blockquote:last-of-type p:first-of-type,
 #chapter-21 > blockquote:nth-of-type(2) p:first-of-type{
 	font-variant: all-small-caps;

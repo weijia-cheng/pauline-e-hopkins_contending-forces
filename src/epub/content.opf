@@ -30,20 +30,27 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Contending Forces</dc:title>
 		<meta property="file-as" refines="#title">Contending Forces</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Romance Illustrative of Negro Life North and South</dc:title>
+		<meta property="file-as" refines="#subtitle">Romance Illustrative of Negro Life North and South, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Contending Forces: A Romance Illustrative of Negro Life North and South</dc:title>
+		<meta property="file-as" refines="#fulltitle">Contending Forces</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
+		<dc:subject id="subject-1">African American women</dc:subject>
+		<dc:subject id="subject-2">African Americans</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
+		<meta property="term" refines="#subject-1">sh85001923</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="schema:genre">TAG</meta>
-		<meta property="schema:abstract">DESCRIPTION</meta>
+		<meta property="term" refines="#subject-2">sh85001932</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:abstract">A young woman of color reckons with her troubled past after she settles in Boston.</meta>
 		<dc:description>
-			LONG_DESCRIPTION
+			&lt;p&gt;In response to the upcoming abolition of slavery in the British Empire, Charles Montfort, an English planter in Bermuda, decides to move his family (and his human chattel) to the southern United States in order to free his slaves on his own schedule. However, Montfort’s arrival arouses the jealousy and anger of his neighbors, who murder Montfort and capture his wife and sons as slaves. Several decades later, Charles Montfort’s lineage survives in the Smiths, a family of Black Bostonians headed by the matriarch Ma Smith, who keeps a boarding house alongside her daughter Dora and her son Will. When a beautiful but mysterious woman of color named Sappho Clark arrives at the boarding house, Dora’s fiancé John P. Langley becomes infatuated with her and begins vying for her attentions alongside Will Smith. The contest of suitors takes place against the backdrop of persistent racial violence in the United States, revealing the painful histories of all of the parties involved.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-US</dc:language>
-		<dc:source>TRANSCRIPTION_URL</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://en.wikisource.org/wiki/Contending_Forces</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/100589508</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="https://en.wikipedia.org/wiki/Contending_Forces" rel="schema:sameAs"/>
@@ -52,30 +59,25 @@
 		<link href="https://github.com/standardebooks/pauline-e-hopkins_contending-forces" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Pauline E. Hopkins</dc:creator>
 		<meta property="file-as" refines="#author">Hopkins, Pauline E.</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<link href="https://en.wikipedia.org/wiki/Pauline_E._Hopkins" refines="#author" rel="schema:sameAs"/>
+		<meta property="schema:alternateName" refines="#author">Pauline Elizabeth Hopkins</meta>
+		<link href="https://en.wikipedia.org/wiki/Pauline_Hopkins" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n87852520.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Childe Hassam</dc:contributor>
+		<meta property="file-as" refines="#artist">Hassam, Childe</meta>
+		<meta property="schema:alternateName" refines="#artist">Frederick Childe Hassam</meta>
+		<link href="https://en.wikipedia.org/wiki/Childe_Hassam" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79062708.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
+		<link href="https://en.wikisource.org/" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="producer-1">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cheng, Weijia</meta>
+		<link href="https://www.weijiarhymeswith.asia/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
